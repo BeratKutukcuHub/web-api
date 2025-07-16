@@ -180,3 +180,7 @@ C:\Users\Berat Kütükçü\Desktop\web-api\web-api-backend\bin\Debug\net9.0\Newt
 C:\Users\Berat Kütükçü\Desktop\web-api\web-api-backend\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
 C:\Users\Berat Kütükçü\Desktop\web-api\web-api-backend\bin\Debug\net9.0\Presentation.dll
 C:\Users\Berat Kütükçü\Desktop\web-api\web-api-backend\bin\Debug\net9.0\Presentation.pdb
+C:\Users\Berat Kütükçü\Desktop\web-api\web-api-backend\bin\Debug\net9.0\nlog.config
+C:\Users\Berat Kütükçü\Desktop\web-api\web-api-backend\bin\Debug\net9.0\NLog.dll
+C:\Users\Berat Kütükçü\Desktop\web-api\web-api-backend\bin\Debug\net9.0\NLog.Extensions.Logging.dll
+C:\Users\Berat Kütükçü\Desktop\web-api\web-api-backend\bin\Debug\net9.0\NLog.Web.AspNetCore.dll

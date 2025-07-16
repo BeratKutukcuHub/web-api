@@ -1137,6 +1137,38 @@
           }
         }
       },
+      "NLog/6.0.1": {
+        "runtime": {
+          "lib/netstandard2.1/NLog.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1.4190"
+          }
+        }
+      },
+      "NLog.Extensions.Logging/6.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.7",
+          "Microsoft.Extensions.Logging": "9.0.7",
+          "NLog": "6.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1.716"
+          }
+        }
+      },
+      "NLog.Web.AspNetCore/6.0.1": {
+        "dependencies": {
+          "NLog.Extensions.Logging": "6.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/NLog.Web.AspNetCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1.1317"
+          }
+        }
+      },
       "System.Buffers/4.6.0": {},
       "System.ClientModel/1.0.0": {
         "dependencies": {
@@ -1432,6 +1464,8 @@
       },
       "Services/1.0.0": {
         "dependencies": {
+          "NLog": "6.0.1",
+          "NLog.Web.AspNetCore": "6.0.1",
           "Repositories": "1.0.0"
         },
         "runtime": {
@@ -2155,6 +2189,27 @@
       "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
+    "NLog/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qDWiqy8/xdpZKtHna/645KbalwP86N2NFJEzfqhcv+Si4V2iNaEfR/dCneuF/4+Dcwl3f7jHMXj3ndWYftV3Ug==",
+      "path": "nlog/6.0.1",
+      "hashPath": "nlog.6.0.1.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nrzqXA7TndN2sMQ0wecyNyyL0PnEO/ArOVYWeYcBlf0H3TvZYNGq0/jjOmudh7T5ZFZyVzErQ2lPaP5ueEH+OQ==",
+      "path": "nlog.extensions.logging/6.0.1",
+      "hashPath": "nlog.extensions.logging.6.0.1.nupkg.sha512"
+    },
+    "NLog.Web.AspNetCore/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z4Tni30VF0jH66wAqFOpIcDZjV0wQJB+Em+bFA44Mj3VdnL0sYrmzSbBs+OxZUXGuzlIdVlR5ZeddhRljH9SKA==",
+      "path": "nlog.web.aspnetcore/6.0.1",
+      "hashPath": "nlog.web.aspnetcore.6.0.1.nupkg.sha512"
     },
     "System.Buffers/4.6.0": {
       "type": "package",

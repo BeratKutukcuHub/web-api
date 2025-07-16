@@ -4,7 +4,7 @@ namespace Services.Contract;
 
 public interface IProductManager<T>
 {
-    IEnumerable<T> GetAllBooks();
+    IEnumerable<T> GetAllProducts();
     Product GetProduct(int id);
     void CreateProduct(T entity);
     void DeleteProduct(int id);

@@ -1,3 +1,4 @@
+using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Presantation.Models;
 using Services.Contract;
@@ -17,7 +18,7 @@ public class ProductController : ControllerBase
     [HttpGet]
     public IActionResult GetProdcuts()
     {
-        var products = _service._productManager.GetAllBooks();
+        var products = _service._productManager.GetAllProducts();
         return Ok(products);
     }
     [HttpGet("{id}")]
@@ -29,7 +30,7 @@ public class ProductController : ControllerBase
     [HttpPost]
     public IActionResult CreateProduct(ProductModel modelEntity)
     {
-        _service._productManager.CreateProduct(new Entities.Product
+        _service._productManager.CreateProduct(new Product
         {
             productName = modelEntity.productName,
             CategoryId = modelEntity.CategoryId,
